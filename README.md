@@ -8,24 +8,41 @@ are unordered while the values are ordered as given above, with 2 being the lowe
 value.
 A poker hand consists of 5 cards dealt from the deck.
 
+
 Input
+
 The input file (which is to be put in the same directory and called "Input.txt") contains several lines, each containing the designation of 10 cards: the first 5 cards are
 the hand for the player named ‘Black’ and the next 5 cards are the hand for the player named ‘White’.
 
+
 Output
+
 For each line of input, prints a line containing one of:
+
 Black wins.
+
 White wins.
+
 Tie.
 
+
 Sample Input
+
 2H 3D 5S 9C KD 2C 3H 4S 8C AH
+
 2H 4S 4C 2D 4H 2S 8S AS QS 3S
+
 2H 3D 5S 9C KD 2C 3H 4S 8C KH
+
 2H 3D 5S 9C KD 2D 3H 5C 9S KH
 
+
 Sample Output
+
 White wins.
+
 Black wins.
+
 Black wins.
+
 Tie
